@@ -30,7 +30,7 @@ open class MessageCollectionViewCell: UICollectionViewCell, CollectionViewReusab
         return "messagekit.cell.base-cell"
     }
 
-    open var avatarView = AvatarView()
+    open var avatarView = AvatarImageView()
 
     open var messageContainerView: MessageContainerView = {
         let containerView = MessageContainerView()
